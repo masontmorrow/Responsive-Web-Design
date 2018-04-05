@@ -60,8 +60,7 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
+    letter-spacing: 0.16rem;
 }
 
 img {
@@ -110,6 +109,10 @@ header .logo {
     display: flex;
     margin-top: 8.523%;
     justify-content: flex-end;
+}
+
+.cta h1 {
+    margin-bottom: 3.355%;
 }
 
 .cta .cta-text {
@@ -168,14 +171,25 @@ header .logo {
     padding-right: 10.23%;
 }
 
+.top-content .text-content h4 {
+    margin-bottom: 2.273%;
+}
+.bottom-content .text-content h4 {
+    margin-bottom: 3.41%;
+}
+
 /* Contact Styles */
 
 .contact {
     font-size: 1.6rem;
 }
 
+.contact h4 {
+    margin-bottom: 1.137%;
+}
+
 .contact p {
-    margin: 1.705% 0;
+    margin: 0 0 1.705% 0;
 }
 
 /* Footer Styles */
@@ -199,11 +213,12 @@ footer {
         order: 2;
         flex-grow: 1;
         width: 100%;
+        margin-top: 5.495%;
     }
 
     header .logo {
         order: 1;
-        margin: 3.847% 0 0 0;
+        margin: 4.121% 0 0 0;
         align-self: center;
     }
     .cta img {
@@ -214,9 +229,23 @@ footer {
     }
     .cta {
         justify-content: center;
+        margin-top: 10.303%;
     }
     .text-content {
         padding: 0 2.473% 0 1.374%;
+    }
+    .top-content .text-content h4 {
+    margin-bottom: 2.977%;
+}
+.bottom-content .text-content h4 {
+    margin-bottom: 4.659%;
+}
+    .main-content {
+        margin: 10.303% 0 4.121% 0;  
+        padding: 4.121% 0;
+    }
+    .main-content .middle-img {
+        margin: 4.121% 0;
     }
     .main-content .bottom-content p {
     padding-right: 4.659%;
@@ -224,6 +253,9 @@ footer {
     .contact {
         padding-left: 1.374%;
     }
+    .contact h4 {
+    margin-bottom: 1.393%;
+}
 }
 
 @media (max-width: 400px) {
@@ -248,6 +280,15 @@ footer {
     nav a:first-child {
         border-top: 1px solid #b0b0b0;
     }
+    .top-content .text-content h4 {
+        margin-bottom: 2.6%;
+    }
+    .bottom-content .text-content h4 {
+        margin-bottom: 2.6%;
+    }
+    .contact h4 {
+        margin-bottom: 2.535%;
+    }
     .cta {
         margin-top: 12.5%;
     }
@@ -264,12 +305,15 @@ footer {
     .top-content {
         margin: 5% 0 2.5% 0;
     }
+
     .main-content {
         margin: 18.75% 0 7.5% 0;
     }
     .main-content .middle-img {
         margin: 0 0 7.5% 0;
     }
+
+
     footer {
         margin: 10% 0 5%;
     }
